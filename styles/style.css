@@ -42,6 +42,34 @@ p {
   margin: 20px;
 }
 
+.navbar-nav {
+  gap: 15px;
+  padding-left: 30px;
+}
+
+.main {
+  margin: 200px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin: 5px;
+  }
+
+  .title-project,
+  .text-project {
+    text-align: center;
+  }
+
+  .launch-button {
+    text-align: center; /* Centraliza o conteúdo dentro do div */
+  }
+
+  .launch-link {
+    display: inline-block; /* Garante que o link se comporte como um bloco em linha */
+  }
+}
+
 .primary-link {
   border-radius: 4px;
   padding: 20px 15px;

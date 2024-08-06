@@ -54,6 +54,7 @@ p {
 @media (max-width: 768px) {
   .main {
     margin: 5px;
+    padding-top: 130px;
   }
 
   .title-project,
@@ -61,12 +62,16 @@ p {
     text-align: center;
   }
 
+  .title-project {
+    font-size: 34px;
+  }
+
   .launch-button {
-    text-align: center; /* Centraliza o conteúdo dentro do div */
+    text-align: center;
   }
 
   .launch-link {
-    display: inline-block; /* Garante que o link se comporte como um bloco em linha */
+    display: inline-block;
   }
 }
 

@@ -130,9 +130,14 @@ footer p {
 
   .main {
     padding: 1rem;
+    margin-top: 60px;
   }
 
   footer {
     margin: 10px 5px;
+  }
+
+  footer .container {
+    display: block;
   }
 }

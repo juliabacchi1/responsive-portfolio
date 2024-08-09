@@ -8,6 +8,8 @@
   --default-font-family: "Nunito", sans-serif;
 }
 
+/* Homepage */
+
 body {
   font-family: var(--default-font-family);
   background-color: var(--primary-color);
@@ -113,6 +115,16 @@ footer p {
 
 .fa-brands:hover {
   opacity: 0.5;
+}
+
+/* About */
+
+.about-main {
+  padding: 100px 0;
+}
+
+.about-main h2 {
+  font-size: 50px;
 }
 
 @media (max-width: 992px) {

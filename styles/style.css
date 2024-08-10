@@ -17,8 +17,7 @@ body {
 
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
@@ -127,6 +126,33 @@ footer p {
   font-size: 50px;
 }
 
+.rectangle-photo {
+  margin: 0 20px;
+  padding: 150px;
+}
+
+/* Skills */
+
+.skills-main {
+  padding-top: 100px;
+}
+
+.rectangle-certificate {
+  padding: 80px;
+}
+
+.rectangle-my-project {
+  padding: 100px;
+}
+
+/* medias */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main {
+    padding: 0 200px !important;
+  }
+}
+
 @media (max-width: 992px) {
   .hero h1 {
     font-size: 60px;
@@ -143,6 +169,15 @@ footer p {
   .main {
     padding: 1rem;
     margin-top: 60px;
+  }
+
+  .rectangle-certificate {
+    padding: 20px !important;
+  }
+
+  .rectangle-my-project {
+    padding: 40px;
+    margin: 0;
   }
 
   footer {

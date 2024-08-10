@@ -4,6 +4,9 @@
 
 This is a customizable and responsive web portfolio template designed to help you create your own professional online presence with ease. It's perfect for showcasing your skills, projects and achievements.
 
+![Screenshot from Homepage's Portfolio Template](./images/Screenshot.png)
+
+
 ## Features
 
 - **Responsive Design:** The layout adapts to different screen sizes, providing a consistent user experience on mobile and desktop devices.

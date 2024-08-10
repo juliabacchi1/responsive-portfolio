@@ -23,7 +23,6 @@ This is a customizable and responsive web portfolio template designed to help yo
 ## Installation
 
 1. **Clone the repository:**
-   ```bash
    git clone https://github.com/seuusuario/nome-do-repositorio.git
 
 2. **Navigate to the project folder:**

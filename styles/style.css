@@ -81,6 +81,8 @@ h3 {
   border: 1px solid var(--details-color);
 }
 
+/* Footer */
+
 footer {
   margin: 35px 80px;
 }
@@ -143,6 +145,29 @@ footer p {
 
 .rectangle-my-project {
   padding: 100px;
+}
+
+/* Contact */
+
+.contact-main {
+  padding-top: 90px;
+}
+
+.contact-main p {
+  font-size: 18px;
+}
+
+.contact-details {
+  background-color: var(--background-color);
+  padding: 30px;
+}
+
+.fa-solid {
+  color: var(--secondary-color);
+}
+
+.fa-solid:hover {
+  opacity: 0.5;
 }
 
 /* medias */

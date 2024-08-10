@@ -201,6 +201,15 @@ footer p {
     margin-top: 60px;
   }
 
+  .rectangle-photo {
+    padding: 80px;
+  }
+
+  .about-main {
+    padding: 1rem;
+    margin-top: 60px;
+  }
+
   .rectangle-certificate {
     padding: 20px !important;
   }

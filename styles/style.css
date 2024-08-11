@@ -67,11 +67,6 @@ h3 {
   margin-top: -80px;
 }
 
-.rectangle-image {
-  margin: 0 20px;
-  padding: 100px;
-}
-
 .btn-outline {
   background-color: var(--terciary-color);
   color: var(--primary-color);
@@ -133,19 +128,10 @@ footer p {
   font-size: 50px;
 }
 
-.rectangle-photo {
-  margin: 0 20px;
-  padding: 150px;
-}
-
 /* Skills */
 
 .skills-main {
-  padding-top: 100px;
-}
-
-.rectangle-certificate {
-  padding: 80px;
+  padding: 80px 13px 5px 22px;
 }
 
 .rectangle-my-project {

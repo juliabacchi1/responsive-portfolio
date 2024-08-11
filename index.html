@@ -40,7 +40,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand ms-2" href="#">Your Brand</a>
+        <a class="navbar-brand ms-2" href="#" title="Brand">Your Brand</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -57,10 +57,18 @@
           id="navbarNavAltMarkup"
         >
           <div class="navbar-nav">
-            <a class="nav-link me-4" href="#projects">Projects</a>
-            <a class="nav-link me-4" href="/about.html">About</a>
-            <a class="nav-link me-4" href="/skills.html">Skills</a>
-            <a class="nav-link me-2" href="/contact.html">Contact</a>
+            <a class="nav-link me-4" href="#projects" title="Projects"
+              >Projects</a
+            >
+            <a class="nav-link me-4" href="/about.html" title="About Page"
+              >About</a
+            >
+            <a class="nav-link me-4" href="/skills.html" title="Skills Page"
+              >Skills</a
+            >
+            <a class="nav-link me-2" href="/contact.html" title="Contact Page"
+              >Contact</a
+            >
           </div>
         </div>
       </div>
@@ -71,7 +79,12 @@
       <h1>Your Name</h1>
       <p class="fs-4 fw-light">Your job description and where you are from</p>
       <div>
-        <a href="#" class="btn btn-branding m-2 rounded-pill">Curriculum</a>
+        <a
+          href="/skills.html"
+          class="btn btn-branding m-2 rounded-pill"
+          title="Curriculum"
+          >Curriculum</a
+        >
       </div>
     </div>
 
@@ -82,13 +95,16 @@
           This is a text description of your project. Describe the features,
           where the inspiration came from, and what tools was used.
         </p>
-        <div
-          class="rectangle-image border border-black rounded-2 bg-transparent"
-        >
-          <p>Image</p>
+        <div>
+          <img
+            src="/images/image-project.png"
+            class="img-fluid rounded-2"
+            alt="Image of a first Project"
+          />
         </div>
       </div>
-      <a href="#" class="btn btn-outline m-3 rounded-pill">Try it</a>
+      <a href="/skills.html" class="btn btn-outline m-3 rounded-pill">Try it</a>
+      <!--In this link you can put the url of your project directly-->
     </div>
 
     <div class="container main text-center mt-3">
@@ -98,13 +114,16 @@
           This is a text description of your project. Describe the features,
           where the inspiration came from, and what tools was used.
         </p>
-        <div
-          class="rectangle-image border border-black rounded-2 bg-transparent"
-        >
-          <p>Image</p>
+        <div>
+          <img
+            src="/images/image-project.png"
+            class="img-fluid rounded-2"
+            alt="Image of a second Project"
+          />
         </div>
       </div>
-      <a href="#" class="btn btn-outline m-3 rounded-pill">Try it</a>
+      <a href="/skills.html" class="btn btn-outline m-3 rounded-pill">Try it</a>
+      <!--In this link you can put the url of your project directly-->
     </div>
 
     <div class="container main text-center mt-3">
@@ -114,13 +133,16 @@
           This is a text description of your project. Describe the features,
           where the inspiration came from, and what tools was used.
         </p>
-        <div
-          class="rectangle-image border border-black rounded-2 bg-transparent"
-        >
-          <p>Image</p>
+        <div>
+          <img
+            src="/images/image-project.png"
+            class="img-fluid rounded-2"
+            alt="Image of a third Project"
+          />
         </div>
       </div>
-      <a href="#" class="btn btn-outline m-3 rounded-pill">Try it</a>
+      <a href="/skills.html" class="btn btn-outline m-3 rounded-pill">Try it</a>
+      <!--In this link you can put the url of your project directly-->
     </div>
 
     <footer>
@@ -174,12 +196,16 @@
             This website was built by
             <a
               href="https://portfolio-juliabacchi.netlify.app"
+              aria-label="Julia's Portfolio"
+              rel="noopener noreferrer"
               class="text-decoration-none text-dark fw-bold"
               target="_blank"
               >Júlia Bacchi</a
             >. Is
             <a
               href="https://github.com/juliabacchi1/responsive-portfolio"
+              aria-label="Julia's Github Professional web Portfolio"
+              rel="noopener noreferrer"
               class="text-decoration-none text-dark fw-bold"
               target="_blank"
               >Open-sourced</a
@@ -188,5 +214,6 @@
         </div>
       </div>
     </footer>
+    <script src="/style.js"></script>
   </body>
 </html>

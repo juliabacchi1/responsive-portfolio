@@ -1,32 +1,32 @@
 const certificates = [
   {
     imageUrl: "/images/image-certificate.png",
-    altText: "Certificado 1",
+    altText: "Certificate 1",
     url: "https://www.google.com.br",
   },
   {
     imageUrl: "/images/image-certificate.png",
-    altText: "Certificado 2",
+    altText: "Certificate 2",
     url: "https://www.google.com.br",
   },
   {
     imageUrl: "/images/image-certificate.png",
-    altText: "Certificado 3",
+    altText: "Certificate 3",
     url: "https://www.google.com.br",
   },
   {
     imageUrl: "/images/image-certificate.png",
-    altText: "Certificado 4",
+    altText: "Certificate 4",
     url: "https://www.google.com.br",
   },
   {
     imageUrl: "/images/image-certificate.png",
-    altText: "Certificado 5",
+    altText: "Certificate 5",
     url: "https://www.google.com.br",
   },
   {
     imageUrl: "/images/image-certificate.png",
-    altText: "Certificado 6",
+    altText: "Certificate 6",
     url: "https://www.google.com.br",
   },
 ];
@@ -38,7 +38,7 @@ certificates.forEach((cert, index) => {
   colDiv.className = "col-4 text-center";
 
   if (index >= 3) {
-    colDiv.classList.add("pt-3");
+    colDiv.classList.add("pt-4");
   }
 
   const img = document.createElement("img");

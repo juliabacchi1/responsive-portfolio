@@ -81,6 +81,22 @@ h3 {
   border: 1px solid var(--details-color);
 }
 
+/* About */
+
+.about-main {
+  padding: 90px 0;
+}
+
+.about-main h2 {
+  font-size: 50px;
+}
+
+/* Skills */
+
+.skills-main {
+  padding: 70px 13px 5px 22px;
+}
+
 /* Footer */
 
 footer {
@@ -116,26 +132,6 @@ footer p {
 
 .fa-brands:hover {
   opacity: 0.5;
-}
-
-/* About */
-
-.about-main {
-  padding: 100px 0;
-}
-
-.about-main h2 {
-  font-size: 50px;
-}
-
-/* Skills */
-
-.skills-main {
-  padding: 80px 13px 5px 22px;
-}
-
-.rectangle-my-project {
-  padding: 100px;
 }
 
 /* Contact */

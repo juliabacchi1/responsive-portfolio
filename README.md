@@ -11,12 +11,14 @@ This is a customizable and responsive web portfolio template designed to help yo
 
 - **Responsive Design:** The layout adapts to different screen sizes, providing a consistent user experience on mobile and desktop devices.
 - **Easy Customization:** Modify colors, fonts and content easily through CSS variables.
+- **JavaScript Functionality:** Used to add interactivity and dynamic features to the website, improving the user experience.
 - **Pre-Defined Sections:** Includes sections for projects, about you, skills and contact, making it easier to configure your portfolio.
   
 ## Tecnhnologies Used
 
 - **HTML5:** Content structure.
 - **CSS3:** Styles and layout.
+- **JavaScript:** To add interactivity and dynamic content to the portfolio.
 - **Bootstrap 5:** Framework for responsive design.
 - **Font Awesome:** Icons for social media links.
   
